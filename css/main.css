@@ -4,6 +4,10 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  background-color: #e5e5f7;
+background-image:  linear-gradient(#a7abf3 3.4000000000000004px, transparent 3.4000000000000004px), linear-gradient(90deg, #a7abf3 3.4000000000000004px, transparent 3.4000000000000004px), linear-gradient(#a7abf3 1.7000000000000002px, transparent 1.7000000000000002px), linear-gradient(90deg, #a7abf3 1.7000000000000002px, #e5e5f7 1.7000000000000002px);
+background-size: 85px 85px, 85px 85px, 17px 17px, 17px 17px;
+background-position: -3.4000000000000004px -3.4000000000000004px, -3.4000000000000004px -3.4000000000000004px, -1.7000000000000002px -1.7000000000000002px, -1.7000000000000002px -1.7000000000000002px;
 }
 
 *,
@@ -22,6 +26,7 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
+  background-color: #e4e3e3;
 }
 
 .calculator-screen {
